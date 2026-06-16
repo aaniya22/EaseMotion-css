@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Card Hover Double Lift Fix — EaseMotion CSS</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { display:flex; justify-content:center; align-items:center; min-height:100vh; background:#0f172a; font-family:sans-serif; }
+    .ease-card { background:#1e293b; border:1px solid #334155; border-radius:12px; padding:24px; width:280px; color:#fff; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .ease-btn { margin-top:12px; padding:8px 16px; background:#6366f1; color:#fff; border:none; border-radius:8px; cursor:pointer; transition: transform 0.3s ease; }
+    .ease-btn:hover { transform: translateY(-4px); }
+  </style>
+</head>
+<body>
+  <div class="ease-card ease-card-hover">
+    <p>Hover the card vs hover the button — no double lift!</p>
+    <button class="ease-btn ease-btn-hover">Click Me</button>
+  </div>
+</body>
+</html>
