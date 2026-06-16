@@ -2,8 +2,8 @@
   "name": "easemotion-css",
   "version": "1.0.0",
   "description": "Human-readable, animation-first CSS framework. Zero dependencies. No build step required.",
-  "main": "easemotion.css",
-  "style": "easemotion.css",
+  "main": "easemotion.min.css",
+  "style": "easemotion.min.css",
   "files": [
     "easemotion.css",
     "easemotion.min.css",
