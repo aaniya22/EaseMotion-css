@@ -1,0 +1,11 @@
+.scroll-snap-align-center {
+  scroll-snap-align: center !important;
+}
+
+.scroll-snap-align-start {
+  scroll-snap-align: start !important;
+}
+
+.scroll-snap-align-end {
+  scroll-snap-align: end !important;
+}
